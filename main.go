@@ -15,5 +15,6 @@ func main() {
 	//DataTypes()
 	//Variable()
 	//Function()
-	FunctionMultipleReturn()
+	//FunctionMultipleReturn()
+	FunctionVariadic()
 }
