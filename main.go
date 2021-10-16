@@ -16,5 +16,9 @@ func main() {
 	//Variable()
 	//Function()
 	//FunctionMultipleReturn()
-	FunctionVariadic()
+	//FunctionVariadic()
+	//FunctionClosure()
+	//FunctionAsParameter()
+	//Pointer()
+	Struct()
 }

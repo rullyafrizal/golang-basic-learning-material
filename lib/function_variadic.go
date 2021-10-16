@@ -22,8 +22,8 @@ func sum(numbersArray ...int) int {
 }
 
 // parameter variadic harus selalu di bagian belakang
-func sort(mode string, numbers ...int) []int {
-	switch mode {
+func sort(order string, numbers ...int) []int {
+	switch order {
 	case "asc": {
 		for i := 0; i < len(numbers); i++ {
 			for j := i + 1; j < len(numbers); j++ {
@@ -47,7 +47,7 @@ func sort(mode string, numbers ...int) []int {
 		}
 	}
 	default: {
-		fmt.Println("Invalid sorting mode")
+		fmt.Println("Invalid sorting order")
 		return numbers
 	}
 	}
