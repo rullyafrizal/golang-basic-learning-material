@@ -1,8 +1,10 @@
 package main
 
-import (
-	. "belajar-go-dasar/lib"
-)
+// cara import apabila file langsung di dalam folder lib
+// import . "belajar-go-dasar/lib"
+// cara apabila file di dalam subfolder yang ada di folder lib
+//import . "belajar-go-dasar/lib/{nama-package}"
+import . "belajar-go-dasar/lib/concurrent"
 
 func main() {
 	//Constant()
@@ -20,5 +22,18 @@ func main() {
 	//FunctionClosure()
 	//FunctionAsParameter()
 	//Pointer()
-	Struct()
+	//_struct.Struct()
+	//Method()
+
+	// Function Init
+	//f.Println("Name : ", Student.Name)
+	//f.Println("Grade : ", Student.Grade)
+
+	//InterfaceHitung()
+	//EmbeddedInterface()
+	//EmptyInterface()
+
+	//Reflect()
+
+	Goroutine()
 }
