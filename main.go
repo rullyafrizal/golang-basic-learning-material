@@ -1,9 +1,5 @@
 package main
 
-// cara import apabila file langsung di dalam folder lib
-// import . "belajar-go-dasar/lib"
-// cara apabila file di dalam subfolder yang ada di folder lib
-//import . "belajar-go-dasar/lib/{nama-package}"
 import . "belajar-go-dasar/lib/concurrent"
 
 func main() {
@@ -35,5 +31,6 @@ func main() {
 
 	//Reflect()
 
+	// Concurrent and Parallel Programming
 	Goroutine()
 }
